@@ -57,7 +57,7 @@ const Navbar = () => {
     },
     {
       icon: Linkedin,
-      href: "www.linkedin.com/in/arkapravo-das-981995318",
+      href: "https://www.linkedin.com/in/arkapravo-das-981995318/",
       label: "LinkedIn",
     },
   ];

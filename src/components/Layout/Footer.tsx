@@ -1,4 +1,3 @@
-
 import { Mail, Phone, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col space-y-4">
             <h3 className="text-xl font-serif font-bold">Portfolio</h3>
             <p className="text-sm text-gray-300 max-w-xs">
-              A showcase of my professional journey, accomplishments, and 
+              A showcase of my professional journey, accomplishments, and
               academic background.
             </p>
           </div>
@@ -22,13 +21,22 @@ const Footer = () => {
           <div className="flex flex-col space-y-4">
             <h3 className="text-lg font-bold">Quick Links</h3>
             <div className="flex flex-col space-y-2">
-              <Link to="/" className="text-sm text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/"
+                className="text-sm text-gray-300 hover:text-white transition-colors"
+              >
                 Home
               </Link>
-              <Link to="/achievements" className="text-sm text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/achievements"
+                className="text-sm text-gray-300 hover:text-white transition-colors"
+              >
                 Achievements
               </Link>
-              <Link to="/timeline" className="text-sm text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/timeline"
+                className="text-sm text-gray-300 hover:text-white transition-colors"
+              >
                 Timeline
               </Link>
             </div>
@@ -39,26 +47,41 @@ const Footer = () => {
             <h3 className="text-lg font-bold">Contact</h3>
             <div className="flex flex-col space-y-3">
               <div className="flex items-center space-x-2">
-                <Phone size={16} className="text-portfolio-blue dark:text-indigo-400" />
-                <a href="tel:+1234567890" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  +1 (234) 567-890
+                <Phone
+                  size={16}
+                  className="text-portfolio-blue dark:text-indigo-400"
+                />
+                <a
+                  href="tel:+1234567890"
+                  className="text-sm text-gray-300 hover:text-white transition-colors"
+                >
+                  +91 9007910106
                 </a>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail size={16} className="text-portfolio-blue dark:text-indigo-400" />
-                <a href="mailto:your.email@example.com" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  your.email@example.com
+                <Mail
+                  size={16}
+                  className="text-portfolio-blue dark:text-indigo-400"
+                />
+                <a
+                  href="arkapravodas03@gmail.com"
+                  className="text-sm text-gray-300 hover:text-white transition-colors"
+                >
+                  gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-2">
-                <Linkedin size={16} className="text-portfolio-blue dark:text-indigo-400" />
-                <a 
-                  href="https://linkedin.com/in/yourprofile" 
-                  target="_blank" 
+                <Linkedin
+                  size={16}
+                  className="text-portfolio-blue dark:text-indigo-400"
+                />
+                <a
+                  href="https://www.linkedin.com/in/arkapravo-das-981995318/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-gray-300 hover:text-white transition-colors"
                 >
-                  linkedin.com/in/yourprofile
+                  linkedin.com
                 </a>
               </div>
             </div>
