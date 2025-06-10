@@ -74,39 +74,40 @@ const TimelineContent = ({ item }: { item: TimelineItemProps["item"] }) => (
 
 const TimelinePage = () => {
   const educationTimeline = [
+    // {
+    //   degree: "Ph.D. in Subject",
+    //   institution: "University Name",
+    //   duration: "2018 - 2022",
+    //   description:
+    //     "Research focus on specific area. Thesis titled 'Your Thesis Title'. Key accomplishments and publications during this period.",
+    //   icon: GraduationCap,
+    //   index: 0,
+    // },
     {
-      degree: "Ph.D. in Subject",
-      institution: "University Name",
-      duration: "2018 - 2022",
+      degree: "Bachelors of Technology Degree in Computer Science Engineering",
+      institution:
+        "Indian Institute of Engineering Science and Technology, Shibpur",
+      duration: "2022 - 2026",
       description:
-        "Research focus on specific area. Thesis titled 'Your Thesis Title'. Key accomplishments and publications during this period.",
-      icon: GraduationCap,
-      index: 0,
-    },
-    {
-      degree: "Master's in Subject",
-      institution: "University Name",
-      duration: "2016 - 2018",
-      description:
-        "Specialized in specific area. Maintained a GPA of X.X. Notable projects included Project Name, focused on project description.",
+        "Currently pursuing a B.Tech in Computer Science Engineering at IIEST Shibpur. Engaged in various projects and internships related to Software Development and Data Science. Actively participating in coding competitions and hackathons. Developed strong programming skills in languages such as Python, Java, and C++. Involved in student organizations and technical clubs.",
       icon: GraduationCap,
       index: 1,
     },
     {
-      degree: "Bachelor's in Subject",
-      institution: "University Name",
-      duration: "2012 - 2016",
+      degree: "Higher Secondary Education",
+      institution: "Vivekananda Mission School, Joka",
+      duration: "2020 - 2022",
       description:
-        "Majored in specific subject with minor in another subject. Dean's list for X semesters. Active participation in relevant extracurricular activities.",
+        "Took up Science stream with Mathematics, Physics, Chemistry, and Computer Science. Achieved a score of 96% in the board examinations. Preparing for IIT-JEE Examination while completing my School Education. Developed a strong foundation in analytical and problem-solving skills.",
       icon: BookOpen,
       index: 2,
     },
     {
-      degree: "High School Diploma",
-      institution: "School Name",
-      duration: "2008 - 2012",
+      degree: "Secondary Degree",
+      institution: "Vivekananda Mission School, Joka",
+      duration: "2020-2022",
       description:
-        "Graduated with honors. Participated in relevant clubs and activities such as debate team, science olympiad, etc.",
+        "Complete my Secondary Education from Vivekananda Mission School, Joka. Achieved a score of 94% in the board examinations. Participated in various extracurricular activities including debates and science fairs. Had a vibrant school life with a focus on academics and personal development.",
       icon: School,
       index: 3,
     },

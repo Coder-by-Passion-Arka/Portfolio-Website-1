@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import myImg from "@/assets/My_img_1.jpg"; // Import your own profile image
 import {
   ArrowRight,
   Award,
@@ -215,8 +216,8 @@ const LandingPage = () => {
                 {/* This is where you could place a profile image */}
                 <div className="w-full h-full rounded-full flex items-center justify-center text-gray-700 text-4xl font-serif">
                   <img
-                    src="/src/assets/My_img_1.jpg"
-                    alt="Profile"
+                    src={myImg}
+                    alt="Profile Picture"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
